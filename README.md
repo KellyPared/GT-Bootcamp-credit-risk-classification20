@@ -1,9 +1,11 @@
 # credit-risk-classification20
 Supervised Learning with Logistic Regression
 
- The project involves data preprocessing, model selection, and evaluation to identify creditworthiness of borrowers.
- 
- The dataset contains information about loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt,and loan_status. The dataset is split into a training set and a testing set. 
+## Overview of the Analysis
+
+The purpose of this project analysis is to use data preprocessing, model selection, and evaluation to identify creditworthiness of borrowers.The dataset I used in this project contains information about loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt,and loan_status. The dataset is split into a training set and a testing set and could be used to predict whether a loan would be paid back or not. It could help lenders make better decisions about when/who to give a loan to.
+
+The data was from a 'dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.'
  
  I used a logistic regression model as the baseline model and evaluate its performance using various metrics such as accuracy, precision, recall, and F1-score. 
  
