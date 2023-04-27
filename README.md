@@ -18,21 +18,28 @@ Logistic regression is used technique in fields like medicine, economics, and so
 ## Results
 <u>Original data 75/25 split</u>
 
+* precision0  | 0.997008 
+* recall0     | 0.994564
+* f1-score0   | 0.995785
 
- <--->             precision  |   recall  | f1-score    |   support </--->
-0        |         0.997008   |. 0.994564 | 0.995785    |18765.000000
-1              0.846617  0.909532  0.876947    619.000000
-accuracy       0.991849  0.991849  0.991849      0.991849
-macro avg      0.921812  0.952048  0.936366  19384.000000
-weighted avg   0.992206  0.991849  0.991990  19384.000000
+* precision1  | 0.846617 
+* recall1     | 0.909532
+* f1-score1   | 0.876947
+
+* accuracy    | 0.991849
+
 
 <u>Oversampled data from the smaller dataset of faulty loans</u>
-              precision    recall  f1-score        support
-0              0.994916  0.994544  0.994730   56271.000000
-1              0.994546  0.994917  0.994732   56271.000000
-accuracy       0.994731  0.994731  0.994731       0.994731
-macro avg      0.994731  0.994731  0.994731  112542.000000
-weighted avg   0.994731  0.994731  0.994731  112542.000000
+
+* precision0  | 0.994916 
+* recall0     | 0.994564
+* f1-score0   | 0.995785
+
+* precision1  | 0.994546 
+* recall1     | 0.994917
+* f1-score1   | 0.994732
+
+* accuracy    | 0.9947314731  112542.000000
 
 ## Summary 
 Resampling Methods: This involves either oversampling the minority class or undersampling the majority class to create a more balanced dataset. Oversampling can be done using techniques such as SMOTE (Synthetic Minority Over-sampling Technique), while undersampling can be done using techniques such as Random Under-Sampling.
