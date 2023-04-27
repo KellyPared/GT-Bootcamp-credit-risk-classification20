@@ -45,4 +45,8 @@ True Negatives (TN) represents the number of negative samples that were correctl
 
 Resampling Methods: This involves either oversampling the minority class or undersampling the majority class to create a more balanced dataset. 
 
+In the original sampling, I recieved an accuracy of 99.1%, however, the precision of the loans that were classified as 0 was only 85%. This meant that 15% of loans that defaulted were not classified or predicted that way, resulting in a loss for the bank.
+
+After resampling, the precision of true positives that were predicted as positive for class 0 was 0.994916, which means that out of all the samples predicted as 0, 99.49% were actually 0. For class 1, the precision was 0.994546, which means that out of all the samples predicted as 1, 99.45% were actually 1. This also applies to the F-1 and Recall.  This means that the model was preforming well and correctly idenitifying the good and faulty loans predictions.
+
 
