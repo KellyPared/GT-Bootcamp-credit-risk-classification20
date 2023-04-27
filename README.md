@@ -20,18 +20,9 @@ Logistic regression is used technique in fields like medicine, economics, and so
 
 
 |        |  Precision    |  Recall       |  F1-Score     |
-| ------------- | ------------- | ------------- | ------------- |
-| 0      | 0.997008      | Content Cell  | Content Cell  |
-| 1.     | Content Cell  | Content Cell  | Content Cell  |
-
-
-* precision0  | 0.997008 
-* recall0     | 0.994564
-* f1-score0   | 0.995785
-
-* precision1  | 0.846617 
-* recall1     | 0.909532
-* f1-score1   | 0.876947
+| ------ | ------------- | ------------- | ------------- |
+| 0      | 0.997008      | 0.994564      | 0.995785      |
+| 1      | 0.846617      | 0.909532      | 0.876947      |
 
 * accuracy    | 0.991849
 
