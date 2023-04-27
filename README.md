@@ -18,8 +18,9 @@ Logistic regression is used technique in fields like medicine, economics, and so
 ## Results
 <u>Original data 75/25 split</u>
 
-              precision    recall  f1-score       support
-0              0.997008  0.994564  0.995785  18765.000000
+
+ <--->             precision  |   recall  | f1-score    |   support </--->
+0        |         0.997008   |. 0.994564 | 0.995785    |18765.000000
 1              0.846617  0.909532  0.876947    619.000000
 accuracy       0.991849  0.991849  0.991849      0.991849
 macro avg      0.921812  0.952048  0.936366  19384.000000
