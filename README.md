@@ -18,6 +18,13 @@ Logistic regression is used technique in fields like medicine, economics, and so
 ## Results
 <u>Original data 75/25 split</u>
 
+
+|  Precision    |  recall       |
+| ------------- | ------------- |
+| 0.997008      | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 * precision0  | 0.997008 
 * recall0     | 0.994564
 * f1-score0   | 0.995785
