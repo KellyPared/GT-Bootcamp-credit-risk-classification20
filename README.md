@@ -16,6 +16,12 @@ I used the logistic regression model to transform the data into a probability va
 Logistic regression is used technique in fields like medicine, economics, and social sciences, for tasks such as predicting the likelihood of a patient having a certain disease, classifying email messages as spam or not spam, or predicting the outcome of a political election.
 
 ## Results
+A confusion matrix was completed on both the original analysis and the resampled analysis. The four type categories were analyzed. 
+* True Positives (TP) represents the number of positive samples that were correctly identified as positive.
+* False Positives (FP) represents the number of negative samples that were incorrectly classified as positive. 
+* False Negatives (FN) represents the number of positive samples that were incorrectly classified as negative. 
+True Negatives (TN) represents the number of negative samples that were correctly identified as negative. 
+
 <b><u>Original data 75/25 split</u></b>
 
 |        |  Precision    |  Recall      |  F1-Score     |
@@ -36,6 +42,7 @@ Logistic regression is used technique in fields like medicine, economics, and so
 * accuracy    | 0.9947314731  112542.000000
 
 ## Summary 
-Resampling Methods: This involves either oversampling the minority class or undersampling the majority class to create a more balanced dataset. Oversampling can be done using techniques such as SMOTE (Synthetic Minority Over-sampling Technique), while undersampling can be done using techniques such as Random Under-Sampling.
+
+Resampling Methods: This involves either oversampling the minority class or undersampling the majority class to create a more balanced dataset. 
 
 
