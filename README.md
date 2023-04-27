@@ -33,6 +33,7 @@ weighted avg   0.992206  0.991849  0.991990  19384.000000
 accuracy       0.994731  0.994731  0.994731       0.994731
 macro avg      0.994731  0.994731  0.994731  112542.000000
 weighted avg   0.994731  0.994731  0.994731  112542.000000
+
 ## Summary 
 Resampling Methods: This involves either oversampling the minority class or undersampling the majority class to create a more balanced dataset. Oversampling can be done using techniques such as SMOTE (Synthetic Minority Over-sampling Technique), while undersampling can be done using techniques such as Random Under-Sampling.
 
