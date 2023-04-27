@@ -16,26 +16,22 @@ I used the logistic regression model to transform the data into a probability va
 Logistic regression is used technique in fields like medicine, economics, and social sciences, for tasks such as predicting the likelihood of a patient having a certain disease, classifying email messages as spam or not spam, or predicting the outcome of a political election.
 
 ## Results
-<u>Original data 75/25 split</u>
+<b><u>Original data 75/25 split</u></b>
 
-
-|        |  Precision    |  Recall       |  F1-Score     |
-| ------ | ------------- | ------------- | ------------- |
-| 0      | 0.997008      | 0.994564      | 0.995785      |
-| 1      | 0.846617      | 0.909532      | 0.876947      |
+|        |  Precision    |  Recall      |  F1-Score     |
+| ------ | ------------- | ------------ | ------------- |
+| 0      | 0.997008      | 0.994564     | 0.995785      |
+| 1      | 0.846617      | 0.909532     | 0.876947      |
 
 * accuracy    | 0.991849
 
 
-<u>Oversampled data from the smaller dataset of faulty loans</u>
+<b><u>Oversampled data from the smaller dataset of faulty loans</u></b>
 
-* precision0  | 0.994916 
-* recall0     | 0.994564
-* f1-score0   | 0.995785
-
-* precision1  | 0.994546 
-* recall1     | 0.994917
-* f1-score1   | 0.994732
+|        |  Precision    |  Recall      |  F1-Score     |
+| ------ | ------------- | ------------ | ------------- |
+| 0      | 0.994916      | 0.994564     | 0.995785      |
+| 1      | 0.994546      | 0.994917     | 0.994732      |
 
 * accuracy    | 0.9947314731  112542.000000
 
